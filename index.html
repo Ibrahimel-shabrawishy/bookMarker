@@ -1,7 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
+    <title>Bookmarker </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -9,27 +13,24 @@
 </head>
 
 <body>
-
     <header class="heading">
         <div class=" ps-5 py-5">
-            <h1 class=" fw-bold">
+            <h1 class=" fw-bold text-white-50">
                 " Bookmarker "
             </h1>
         </div>
     </header>
 
-
-
     <div class="container text-center my-5">
-        <h1>Bookmark your favorite sites</h1>
-        <label for="siteName" class="mt-5">Site Name</label>
+        <h2 class="text-white-50">Bookmark your favorite sites</h2>
+        <label for="siteName" class="mt-5 text-white-50 mb-3">Site Name</label>
         <input id="siteName" class="form-control" placeholder="Bookmark Name">
-        <p class="alert alert-error m-auto my-2" style="display: block;" id="errorName">Name is required</p>
-        <label for="siteUrl" class="mt-5">Site URL</label>
+        <p class="alert alert-error m-auto my-2 form-control" style="display: block;" id="errorName">Name is required</p>
+        <label for="siteUrl" class="mt-5  mb-3 text-white-50">Site URL</label>
         <input id="siteUrl" class="form-control" placeholder="Website URL">
-        <p class="alert alert-error m-auto my-2" style="display: block;" id="errorUrl">Url Field is required
+        <p class="alert alert-error m-auto my-2 form-control" style="display: block;" id="errorUrl">Url Field is required
         </p>
-        <button id="btn" class="btn-outline-danger mt-5">Submit</button>
+        <button id="btn" class="btn-outline-danger mt-5 rounded-2 px-5">Submit</button>
 
 
 
@@ -40,7 +41,7 @@
 
         <footer>
             <div class="container">
-                <p>© 2019 Bookmarker Inc.</p>
+                <p class="text-white-50 py-5">© 2019 Bookmarker Inc.</p>
             </div>
         </footer>
 
